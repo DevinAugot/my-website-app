@@ -1,0 +1,44 @@
+.main-header {
+  display: grid;
+  width: auto;
+  height: auto;
+  background-color: var(--Headbg);
+  color: rgb(255, 255, 254);
+}
+#header-h1 {
+  padding-top: 1rem;
+  display: flex;
+  font-size: 2rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+#h1-div {
+  padding: 20px;
+}
+
+/* styling navlist */
+#navlist {
+  background-color: #0074d900;
+  position: absolute;
+  width: 100%;
+}
+/* styling navlist anchor element */
+#navlist a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px;
+  text-decoration: none;
+  font-size: 15px;
+}
+.navlist-right {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  float: right;
+}
+/* hover effect of navlist anchor element */
+#navlist a:hover {
+  color: aqua;
+  transition: 0.3s;
+}
